@@ -52,7 +52,7 @@ function show() {
         <h1>' + theme.name + '</h1>
         <nav id="drop" class="">
             <a href="' + theme.links[1].url + '">' + theme.links[1].name + '</a>
-            <a href="calculators/simple.html">Simple Calculator</a>
+            <a href="' + theme.links[2].url + '">' + theme.links[1].url + '</a>
             <a href="calculators/scientific.html">Scientific Calculator</a>
             <a href="calculators/algebra.html">Algebraic Calculator</a>
             <a href="calculators/graphing.html">Graphing Calculator</a>
