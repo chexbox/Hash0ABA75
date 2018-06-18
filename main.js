@@ -1,4 +1,4 @@
-var theme { "name": "Example Page", "nav": [["first", "firstlink"], ["second","secondlink"]]};
+//var theme { "name": "Example Page", "nav": [["first", "firstlink"], ["second","secondlink"]]};
 function setcookie(value) {
     document.cookie = "";
     document.cookie = "colors=" + value + "; path=/";
