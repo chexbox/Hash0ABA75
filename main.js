@@ -51,7 +51,7 @@ function show() {
     document.getElementsByTagName("body")[0].innerHTML = document.getElementsByTagName("body")[0].innerHTML + '<footer><p>' + theme.footercontent + '</p></footer>';
     let i = 0;
     while (i < theme.nav.length){
-        document.getElementById("drop").innerHTML = document.getElementById("drop").innerHTML + '<a href=' + theme.nav[i][0] + '>' + theme.nav[i][1] + '</a>';
+        document.getElementById("drop").innerHTML = document.getElementById("drop").innerHTML + '<a href=' + theme.nav[i][1] + '>' + theme.nav[i][0] + '</a>';
         i += 1;
     }
 }
