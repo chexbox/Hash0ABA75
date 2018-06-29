@@ -1,7 +1,10 @@
 //var theme { "name": "Example Page", "nav": [["first", "firstlink"], ["second","secondlink"]]};
 function setcookie(value) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString()
     document.cookie = "";
-    document.cookie = "colors=" + value + "; path=/";
+    document.cookie = "colors=" + value + ";" + expires + " path=/";
     getCookie();
 }
 
